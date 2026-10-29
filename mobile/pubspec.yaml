@@ -1,0 +1,46 @@
+name: riding_moto
+description: Real-time co-traveler tracking for group riders.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Maps
+  google_maps_flutter: ^2.10.0
+
+  # Real-time WebSocket
+  web_socket_channel: ^3.0.1
+
+  # HTTP REST calls
+  http: ^1.4.0
+
+  # Location
+  geolocator: ^13.0.4
+  permission_handler: ^11.4.0
+
+  # Local storage (persist member_id)
+  shared_preferences: ^2.5.3
+
+  # Ads
+  google_mobile_ads: ^5.3.0
+
+  # UI extras
+  flutter_animate: ^4.5.0
+  fluttertoast: ^8.2.12
+  share_plus: ^10.1.4
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

@@ -1,0 +1,34 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+.venv-old/
+venv/
+__pycache__/
+*.pyc
+*.sqlite3
+
+# Flutter / Android
+.dart_tool/
+build/
+coverage/
+.flutter-plugins*
+.gradle/
+local.properties
+key.properties
+*.jks
+*.keystore
+
+# iOS
+Pods/
+.symlinks/
+**/Flutter/ephemeral/
+
+# Editor / system files
+.idea/
+*.iml
+*.log
+.DS_Store
